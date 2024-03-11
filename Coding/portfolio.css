@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio-ok{
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 32px;
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-twounits);
+    transition: 0.3s;
+    font-family: "Playfair Display";
+    margin-left: var(--dl-space-space-sixunits);
+    border-color: #ffffff;
+    border-width: 2px;
+    padding-left: 2rem;
+    border-radius: 8px;
+    padding-right: 2rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+
+
+}

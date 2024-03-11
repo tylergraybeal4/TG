@@ -1,0 +1,178 @@
+body {
+    background-image: url("https://github.com/tylergraybeal4/Web-Icons/blob/main/Site%20Pic%20Cover.png?raw=true");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 100vh;
+    min-width: 100vw; 
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    overflow: hidden;
+}
+
+
+
+
+
+.main {
+    height: auto;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 150px;
+    margin-left: 6rem;
+}
+
+
+h1 {
+    font-size: 68px;
+    font-family: "Playfair Display";
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+
+.portfolio {
+  position: absolute;
+  font-size: 28px;
+  font-family: "Playfair Display";
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 2px;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+
+.portfolio:hover {
+  color: #5c83da;
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+
+
+
+
+.social-icons {
+    display: flex; /* Use flexbox layout */
+    justify-content: left; /* Center items horizontally */
+}
+
+.instagram-icon {
+    display: inline-block;
+    background-image: url(https://github.com/tylergraybeal4/Web-Icons/blob/main/White%20instagram_.png?raw=true);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+    margin-left: 10px;
+    margin-top: 125px;
+    margin-right: 5px;
+}
+
+.linkedin-icon {
+    display: inline-block;
+    background-image: url(https://github.com/tylergraybeal4/Web-Icons/blob/main/White%20linkedin.png?raw=true);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-top: 125px;
+}
+
+
+.instagram-icon:hover, .linkedin-icon:hover{
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+
+
+.contact {
+    position: absolute;
+    font-size: 18px;
+    font-family: "Playfair Display";
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.contact:hover {
+  color: #5c83da;
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+@media (max-width: 900px){
+  .main {
+    margin-left: 3rem; /* Adjust margin-left for smaller screens */
+}
+}
+
+
+@media (width <675px){
+  .main {
+    margin-left: 1rem; /* Adjust margin-left for smaller screens */
+  
+}
+h1{
+
+  font-size: 48px;
+}
+
+}
+
+@media (width <275px){
+  .main {
+    margin-left: 1rem; /* Adjust margin-left for smaller screens */
+  
+}
+h1{
+
+  font-size: 38px;
+}
+
+}
+
